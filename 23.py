@@ -1,11 +1,11 @@
 min=int(raw_input())
-def smallest(arr,n): 
+def smallest(arr,r): 
     min = arr[0]
-    for i in range(1, n): 
+    for i in range(1, r): 
         if arr[i] > max: 
             min = arr[i] 
     return min
 arr = [1,2,3,4,5] 
-n = len(arr) 
-Ans = smallest(arr,n) 
+r = len(arr) 
+Ans = smallest(arr,r) 
 print (Ans) 
