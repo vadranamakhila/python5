@@ -1,11 +1,11 @@
 max = int(raw_input())
-def largest (arr,n):
+def largest (arr,r):
   max = arr[0] 
-  for i in range(1, n): 
+  for i in range(1, r): 
         if arr[i] > max: 
             max = arr[i] 
   return max 
 arr = [1,2,3,4,5]
-n = len(arr) 
-Ans = largest(arr,n) 
+r = len(arr) 
+Ans = largest(arr,r) 
 print (Ans)
