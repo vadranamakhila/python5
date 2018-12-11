@@ -1,4 +1,4 @@
-n=int(raw_input())
-a=[2,1,3]
-a.sort()
-print(a)
+r=int(raw_input())
+c=[2,1,3]
+c.sort()
+print(c)
