@@ -1,4 +1,4 @@
 a,b,c=map(int,raw_input().split())
-s=b+c
-c=s*a
-print(c)
+r=b+c
+m=r*a
+print(m)
