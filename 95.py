@@ -1,3 +1,3 @@
-a,d,n=map(int,raw_input().split())
-ap=(n/2) * (2 * a + (n-1) * d)
-print ap
+b,c,m=map(int,raw_input().split())
+bp=(m/2) * (2 * b + (m-1) * c)
+print bp
